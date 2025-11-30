@@ -1,0 +1,122 @@
+:root{
+  --bg:#0f1724;
+  --card:#0b1220;
+  --muted:#9aa4b2;
+  --accent:#5eead4;
+  --text:#e6eef8;
+  --glass: rgba(255,255,255,0.03);
+  --radius:12px;
+  --container:1200px;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  background:linear-gradient(180deg,#07142a 0%, #071a26 100%);
+  color:var(--text);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  line-height:1.5;
+}
+
+/* layout container */
+.container{
+  width:min(var(--container),calc(100% - 48px));
+  margin:0 auto;
+  padding:48px 0;
+}
+
+/* Header */
+.site-header{
+  position:sticky;
+  top:0;
+  background:rgba(5,10,18,0.6);
+  backdrop-filter:blur(6px);
+  z-index:30;
+  border-bottom:1px solid rgba(255,255,255,0.02);
+}
+.header-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:1rem;
+}
+.brand{font-weight:700;color:var(--text);text-decoration:none;font-size:1.05rem}
+.nav{display:flex;gap:1rem}
+.nav a{color:var(--muted);text-decoration:none;padding:8px;border-radius:8px}
+.nav a:hover{color:var(--text);background:var(--glass)}
+
+/* Mobile menu toggle */
+.menu-toggle{display:none;background:none;border:0;color:var(--muted);font-size:1.4rem}
+
+/* Hero */
+.hero-inner{display:grid;grid-template-columns:1fr 360px;gap:32px;align-items:center}
+.hero{padding-top:72px;padding-bottom:72px}
+.hero h1{margin:0;font-size:2.2rem}
+.lead{color:var(--muted);margin-top:8px}
+.hero-photo img{width:100%;height:auto;border-radius:16px;box-shadow:0 6px 24px rgba(2,6,23,0.6);display:block}
+
+/* Buttons */
+.btn{display:inline-block;padding:10px 14px;border-radius:10px;text-decoration:none;border:1px solid transparent;font-weight:600;cursor:pointer}
+.btn.small{padding:6px 10px;font-size:0.9rem}
+.btn.primary{background:linear-gradient(90deg,var(--accent),#34d399);color:#04202a}
+.btn.outline{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--text)}
+.btn.primary:hover{opacity:0.95}
+
+/* Sections */
+.section{padding:48px 0}
+.section h2{margin:0 0 12px;font-size:1.35rem}
+.muted{color:var(--muted)}
+
+/* About */
+.about-grid{display:flex;gap:24px;align-items:flex-start}
+.contact-list{list-style:none;padding:0;margin:0;min-width:220px;color:var(--muted)}
+.contact-list li{margin-bottom:10px}
+
+/* Projects */
+.projects-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--card);border-radius:var(--radius);overflow:hidden;box-shadow:0 6px 20px rgba(2,6,23,0.6);}
+.project-card img{width:100%;height:160px;object-fit:cover;display:block}
+.card-body{padding:14px}
+.project-links .btn.small{margin-right:8px}
+
+/* Skills */
+.skills-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.skill label{display:block;font-weight:600;margin-bottom:6px}
+.bar{background:rgba(255,255,255,0.04);height:12px;border-radius:999px;overflow:hidden}
+.bar span{display:block;height:100%;background:linear-gradient(90deg,var(--accent),#60a5fa)}
+
+/* Contact */
+.contact-form .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.contact-form label{display:block}
+.contact-form label.full{grid-column:1/-1}
+.contact-form input, .contact-form textarea{
+  width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);
+  background:transparent;color:var(--text)
+}
+.form-actions{display:flex;gap:12px;align-items:center;margin-top:12px}
+.form-status{margin-top:12px;color:var(--accent)}
+
+/* Footer */
+.site-footer{padding:18px 0;border-top:1px solid rgba(255,255,255,0.02);margin-top:36px}
+.footer-inner{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.social a{color:var(--muted);text-decoration:none;margin-left:10px}
+
+/* Responsive */
+@media (max-width:900px){
+  .projects-grid{grid-template-columns:repeat(2,1fr)}
+  .hero-inner{grid-template-columns:1fr}
+  .hero-photo{order:-1}
+  .about-grid{flex-direction:column}
+  .skills-grid{grid-template-columns:1fr}
+  .contact-form .form-grid{grid-template-columns:1fr}
+  .menu-toggle{display:block}
+  .nav{display:none}
+}
+
+@media (max-width:600px){
+  .projects-grid{grid-template-columns:1fr}
+  .hero h1{font-size:1.6rem}
+}
