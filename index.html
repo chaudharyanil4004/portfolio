@@ -1,190 +1,1597 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="Portfolio of [Your Name] — developer, designer, creator." />
-  <title>[Your Name] — Portfolio</title>
+    <head>
+        <!-- Required meta tags -->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Shivam is Resume, vCard and Personal portfolio bootstrap 5 html template." />
+        <meta name="keywords" content="" />
+        <meta name="author" content="" />
+        <!-- Title Of Site -->
+        <title>Shivam - CV, Resume, vCard and Portfolio template</title>
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
 
-  <!-- Favicons (replace with your own) -->
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+        <!-- *********** CSS Files *********** -->
+        <!-- Plugin CSS -->
+        <link rel="stylesheet" href="assets/css/plugins.css" />        
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="styles.css" />
+        <!-- Main Style CSS -->
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
 
-  <!-- Open Graph (customize) -->
-  <meta property="og:title" content="[Your Name] — Portfolio">
-  <meta property="og:description" content="Developer, designer, and maker.">
-  <meta property="og:type" content="website">
-</head>
-<body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="#">Anil Chaudhary</a>
-      <nav class="nav" id="main-nav">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <button id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation">☰</button>
-    </div>
-  </header>
-
-  <main>
-    <section class="hero" id="home">
-      <div class="container hero-inner">
-        <div class="hero-text">
-          <h1>Hi, I'm <span class="accent">[Your Name]</span></h1>
-          <p class="lead">I build web apps, interfaces, and delightful user experiences.</p>
-          <p>
-            <a class="btn primary" href="#projects">See my work</a>
-            <a class="btn outline" href="#contact">Contact me</a>
-          </p>
+    <body id="home" class="template-index" data-spy="scroll" data-target="#scrollspy" data-offset="70">
+        <!-- Preloader -->
+        <div id="preloader" class="preloader active">
+            <div class="inner-box d-flex align-items-center justify-content-center"><div class="preloader-inner"><span class="sr-only">Loading...</span></div></div>
         </div>
-        <div class="hero-photo" aria-hidden="true">
-          <!-- Replace with your photo -->
-          <img src="assets/profile-placeholder.jpg" alt="Portrait of [Your Name]">
-        </div>
-      </div>
-    </section>
+        <!-- End Preloader -->
 
-    <section id="about" class="section about">
-      <div class="container">
-        <h2>About</h2>
-        <div class="about-grid">
-          <div>
-            <p>Hello — I'm a developer based in [City]. I make things for the web: frontend apps, small backend services, and delightful UI. I enjoy solving problems, writing clean code, and learning new tools.</p>
-            <p>Currently open to freelance or full-time opportunities.</p>
-            <p>
-              <a class="btn" href="mailto:you@example.com">Email me</a>
-              <a class="btn outline" href="assets/resume.pdf" target="_blank" rel="noopener">Resume</a>
-            </p>
-          </div>
-          <ul class="contact-list" aria-label="Contact and links">
-            <li><strong>Location:</strong> [City, Country]</li>
-            <li><strong>Email:</strong> <a href="mailto:you@example.com">you@example.com</a></li>
-            <li><strong>Social:</strong>
-              <a href="#" aria-label="GitHub">GitHub</a> ·
-              <a href="#" aria-label="LinkedIn">LinkedIn</a> ·
-              <a href="#" aria-label="Twitter">Twitter</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects" class="section projects">
-      <div class="container">
-        <h2>Projects</h2>
-        <p class="muted">A selection of projects — replace with your own.</p>
-        <div class="projects-grid">
-          <!-- Project example card -->
-          <article class="card project-card">
-            <img src="assets/project1.jpg" alt="Project 1 screenshot">
-            <div class="card-body">
-              <h3>Project One</h3>
-              <p class="muted">A short description of project one — tech used, role, value.</p>
-              <p class="project-links">
-                <a class="btn small" href="#" target="_blank" rel="noopener">Live</a>
-                <a class="btn small outline" href="#" target="_blank" rel="noopener">Source</a>
-              </p>
+        <!-- Page Wrapper -->
+        <div id="page-wrapper" class="page-wrapper">
+            <!-- Sidebar -->
+            <div class="side-menu-wrapper">
+                <!-- Main Menu Toggle Icon -->
+                <div class="menu-toogle-icon d-lg-none"><div id="nav-icon"><span></span><span></span><span></span><span></span></div></div>
+                <!-- End Main Menu Toggle Icon -->
+                <!-- Side Menu -->
+                <div class="side-menu mobile-menu-hide d-flex flex-column">
+                    <!-- Menu Inner -->
+                    <div class="menu-inner">
+                        <!-- Profile photo/name -->
+                        <div class="heading-area">
+                            <a href="index.html" class="profile-photo d-block"><img class="img-fluid wow zoomIn" src="assets/images/profile/profile.jpg" alt="profile" data-wow-delay="0.2s" /></a>
+                            <div class="name wow fadeInUp" data-wow-delay="0.3s">Shivam Pratap</div>
+                        </div>
+                        <!-- End Profile photo/name -->
+                        <!-- Main Menu -->
+                        <ul id="mainmenu">
+                            <li class="current"><a href="#home" class="wow fadeInUp" data-wow-delay="0.4s"><i class="fas fa-home"></i>Home</a></li>
+                            <li><a href="#about" class="wow fadeInUp" data-wow-delay="0.4s"><i class="fas fa-user"></i>About</a></li>
+                            <li><a href="#service" class="wow fadeInUp" data-wow-delay="0.4s"><i class="fas fa-briefcase"></i>Services</a></li>
+                            <li><a href="#resume" class="wow fadeInUp" data-wow-delay="0.4s"><i class="fas fa-file-alt"></i>Resume</a></li>
+                            <li><a href="#portfolio" class="wow fadeInUp" data-wow-delay="0.4s"><i class="fas fa-layer-group"></i>Portfolio</a></li>
+                            <li><a href="#blog" class="wow fadeInUp" data-wow-delay="0.4s"><i class="fab fa-blogger"></i>Blog</a></li>
+                            <li><a href="#contact" class="wow fadeInUp" data-wow-delay="0.4s"><i class="fas fa-address-book"></i>Contact</a></li>
+                        </ul>
+                        <!-- End Main Menu -->
+                    </div>
+                    <!-- End Menu Inner -->
+                    <!-- Bottom Text -->
+                    <div class="copyright-text mt-2 mt-lg-3 bg-white py-4 px-2 text-center w-100">
+                        <p>&copy; 2025 <a class="font-weight-bolder" href="#">Shivam</a>. All rights reserved.</p>
+                    </div>
+                    <!-- End Bottom Text -->
+                </div>
+                <!-- End Side Menu -->
             </div>
-          </article>
+            <!-- End Sidebar -->
 
-          <article class="card project-card">
-            <img src="assets/project2.jpg" alt="Project 2 screenshot">
-            <div class="card-body">
-              <h3>Project Two</h3>
-              <p class="muted">A short description of project two.</p>
-              <p class="project-links">
-                <a class="btn small" href="#" target="_blank" rel="noopener">Live</a>
-                <a class="btn small outline" href="#" target="_blank" rel="noopener">Source</a>
-              </p>
+            <!-- Main Content -->
+            <div class="main-content py-0">
+                <!-- Main Banner Section -->
+                <div class="home-section" style="background-image: url('assets/images/home-banner.jpg');">
+                    <!-- Particles -->
+                    <div id="particle-box"></div>
+                    <!-- End Particles -->
+
+                    <!-- Container -->
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12">
+                                <!-- Banner Content -->
+                                <div class="home-content">
+                                    <!-- Profile Image -->
+                                    <div class="home-image"><img class="img-fluid wow zoomIn" src="assets/images/profile/profile2.jpg" alt="profile" data-wow-delay="0.2s" /></div>
+                                    <!-- End Profile Image -->
+                                    <!-- Main Content -->
+                                    <div class="home-main-content">
+                                        <h4 class="heading wow fadeInUp" data-wow-delay="0.3s">Shivam Pratap</h4>
+                                        <div class="designation wow zoomIn" data-wow-delay="0.4s">
+                                            <span>I'm a <span class="typewrite font-weight-bold" data-period="2000" data-type='[ "Logo Designer", "UI/UX Designer", "Web Developer"]'><span class="wrap"></span></span></span>
+                                        </div>
+                                        <!-- Social Info -->
+                                        <div class="social-info wow fadeInUp" data-wow-delay="0.5s">
+                                            <ul>
+                                                <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                                <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                                <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                                <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                                                <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- End Social Info -->
+                                        <div class="about-links d-flex flex-wrap justify-content-center wow fadeInUp" data-wow-delay="0.6s">
+                                            <a href="#contact" class="btn btn-primary contact-link"><span>Contact Me</span></a>
+                                            <a href="#portfolio" class="btn btn-light portfolio-link"><span>My portfolio</span></a>
+                                        </div>
+                                    </div>
+                                    <!-- End Main Content -->
+                                </div>
+                                <!-- End Banner Content -->
+                                <!-- Bottom Scroll Arrow -->
+                                <a href="#about" class="scroll-down-arrow smooth-scroll-down about-link"></a>
+                                <!-- End Bottom Scroll Arrow -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Container -->
+                </div>
+                <!-- End Main Banner Section -->
+
+                <!-- About Section -->
+                <div id="about" class="about-section ss-top">
+                    <!-- Container -->
+                    <div class="container">
+                        <!-- Section Title -->
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12">
+                                <div class="section-heading wow fadeInUp" data-wow-delay="0.2s">
+                                    <h2 class="title">
+                                        About <span class="color">Me</span>
+                                        <span class="bg-text">About</span>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Section Title -->
+
+                        <!-- Section Content -->
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="about">
+                                    <!-- About Image/Info -->
+                                    <div class="row align-items-center">
+                                        <div class="col-xxl-4 col-lg-5">
+                                            <div class="about-image card-p20 wow fadeInUp" data-wow-delay="0.3s">
+                                                <img class="img-fluid" src="assets/images/profile/profile3.jpg" alt="profile" />
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-8 col-lg-7 align-self-center">
+                                            <div class="short-description card-p30 wow fadeInUp">
+                                                <p>Hi, i am Shivam proffestional web designer & developer. i am working as a web developer for last 5 years, I am working world best projects. I have done thousands of website task in my career. and every client was happy for my work. feel free to contact with me for discuss your project.</p>
+                                                <p>Shivam has everything you need to get your new website up and running in no time! w3c valid error free code and easy to use. multi-focused designer working on interfaces and branding for digital products. Modern and mobile-ready website that will help of your marketing.</p>
+                                                <p>Get the bundle and get lifetime support and one year updates. I am available for freelance work. Connect with me via my account.</p>
+                                                <div class="about-links"><a href="#" class="btn btn-primary"> <span>Download CV</span> </a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End About Image/Info -->
+
+                                    <!-- About Personal Info -->
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="about-content card-p30 mt-30 wow fadeInUp">
+                                                <div class="personal-info">
+                                                    <ul class="row">
+                                                        <li class="col-md-6 col-lg-6"><label>Birthday:</label> <span>21 May, 1995</span></li>
+                                                        <li class="col-md-6 col-lg-6"><label>Age:</label> <span>25</span></li>
+                                                        <li class="col-md-6 col-lg-6"><label>City:</label> <span>23 Quincy Street, New York</span></li>
+                                                        <li class="col-md-6 col-lg-6"><label>Experience :</label> <span>5+ years</span></li>
+                                                        <li class="col-md-6 col-lg-6"><label>Study:</label> <span>University of Tokyo</span></li>
+                                                        <li class="col-md-6 col-lg-6"><label>Degree:</label> <span>Master</span></li>	
+                                                        <li class="col-md-6 col-lg-6"><label>Website:</label> <span><a href="#">www.example.com</a></span></li>
+                                                        <li class="col-md-6 col-lg-6"><label>Email:</label> <span><a href="#">info@example.com</a></span></li>
+                                                        <li class="col-md-6 col-lg-6"><label>Phone:</label> <span><a href="tel:+011234567890">(+01) 123 456 7890</a></span></li>
+                                                        <li class="col-md-6 col-lg-6"><label>Fax:</label> <span><a href="fax:1234567890">1234567890</a></span></li>
+                                                        <li class="col-md-6 col-lg-6"><label>Skype:</label> <span><a href="#">yourname</a></span></li>
+                                                        <li class="col-md-6 col-lg-6"><label>Twitter:</label> <span><a href="#">@yourname</a></span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End About Personal Info -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Section Content -->
+                    </div>
+                    <!-- Container -->
+                </div>
+                <!-- End About Section -->
+
+                <!-- Counter Section -->
+                <div class="counter-section mt-30">
+                    <!-- Container -->
+                    <div class="container">
+                        <div class="row col-row text-center">
+                            <!-- Counter Item -->
+                            <div class="col-lg-3 col-md-6 col-item">
+                                <div class="counter-item card-p30 wow fadeInUp">
+                                    <img class="img-fluid" src="assets/images/icon/iconImg.png" alt="counter" />
+                                    <div class="counter-wrapper">
+                                        <span class="counter">82</span> <span>k+</span>
+                                    </div>
+                                    <p class="text">Project Done</p>
+                                </div>
+                            </div>
+                            <!-- End Counter Item -->
+                            <!-- Counter Item -->
+                            <div class="col-lg-3 col-md-6 col-item">
+                                <div class="counter-item card-p30 wow fadeInUp">
+                                    <img class="img-fluid" src="assets/images/icon/iconImg.png" alt="counter" />
+                                    <div class="counter-wrapper">
+                                        <span class="counter">99</span> <span>k+</span>
+                                    </div>
+                                    <p class="text">Happy users</p>
+                                </div>
+                            </div>
+                            <!-- End Counter Item -->
+                            <!-- Counter Item -->
+                            <div class="col-lg-3 col-md-6 col-item">
+                                <div class="counter-item card-p30 wow fadeInUp">
+                                    <img class="img-fluid" src="assets/images/icon/iconImg.png" alt="counter" />
+                                    <div class="counter-wrapper">
+                                        <span class="counter">46</span> <span>k+</span>
+                                    </div>
+                                    <p class="text">Great Reviews</p>
+                                </div>
+                            </div>
+                            <!-- End Counter Item -->
+                            <!-- Counter Item -->
+                            <div class="col-lg-3 col-md-6 col-item">
+                                <div class="counter-item card-p30 wow fadeInUp">
+                                    <img class="img-fluid" src="assets/images/icon/iconImg.png" alt="counter" />
+                                    <div class="counter-wrapper">
+                                        <span class="counter">38</span> <span>k+</span>
+                                    </div>
+                                    <p class="text">Support Team</p>
+                                </div>
+                            </div>
+                            <!-- End Counter Item -->
+                        </div>
+                    </div>
+                    <!-- End Container -->
+                </div>
+                <!-- End Counter Section -->
+
+                <!-- My Service Section --> 
+                <div id="service" class="service-section ss-top">
+                    <!-- Container -->
+                    <div class="container">
+                        <!-- Section Title -->
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12">
+                                <div class="section-heading wow fadeInUp" data-wow-delay="0.2s">
+                                    <h2 class="title">
+                                        My <span class="color">Services</span>
+                                        <span class="bg-text">Services</span>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Section Title -->
+
+                        <!-- Section Content -->
+                        <div class="row justify-content-center text-center col-row service-grid">
+                            <div class="col-lg-4 col-md-6 col-item">
+                                <div class="service-item card-p30 wow fadeInUp">
+                                    <img class="img-fluid" src="assets/images/icon/iconImg.png" alt="service" />
+                                    <div class="content">
+                                        <h4 class="title"><a href="service-single.html">Web Design</a></h4>
+                                        <p>I offer the latest design trends and I constantly improve it to make your website.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-item">
+                                <div class="service-item card-p30 wow fadeInUp">
+                                    <img class="img-fluid" src="assets/images/icon/iconImg.png" alt="service" />
+                                    <div class="content">
+                                        <h4 class="title"><a href="service-single.html">Web Development</a></h4>
+                                        <p>Encompasses all the actions, updates, and operations required to build manage</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-item">
+                                <div class="service-item card-p30 wow fadeInUp">
+                                    <img class="img-fluid" src="assets/images/icon/iconImg.png" alt="service" />
+                                    <div class="content">
+                                        <h4 class="title"><a href="service-single.html">Creative design</a></h4>
+                                        <p>For every website projects I take, I offer three major customizations for free.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-item">
+                                <div class="service-item card-p30 wow fadeInUp">
+                                    <img class="img-fluid" src="assets/images/icon/iconImg.png" alt="service" />
+                                    <div class="content">
+                                        <h4 class="title"><a href="service-single.html">App Development</a></h4>
+                                        <p>Apps tracking helps and fix crashes in real time. Debug your application and prevent stack.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-item">
+                                <div class="service-item card-p30 wow fadeInUp">
+                                    <img class="img-fluid" src="assets/images/icon/iconImg.png" alt="service" />
+                                    <div class="content">
+                                        <h4 class="title"><a href="service-single.html">Fast & Optimized</a></h4>
+                                        <p>I use Content make sure that your website's performance/speed is very high.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-item">
+                                <div class="service-item card-p30 wow fadeInUp">
+                                    <img class="img-fluid" src="assets/images/icon/iconImg.png" alt="service" />
+                                    <div class="content">
+                                        <h4 class="title"><a href="service-single.html">Pixel Precision</a></h4>
+                                        <p>I keep a track on traffic and accordingly improvise to get more traffic on your website.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Section Content -->
+                    </div>
+                    <!-- End Container -->
+                </div>
+                <!-- My service Section -->
+
+                <!-- Resume Section -->
+                <div id="resume" class="resume-section ss-top">
+                    <!-- Container -->
+                    <div class="container">
+                        <!-- Section Title -->
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12">
+                                <div class="section-heading wow fadeInUp" data-wow-delay="0.2s">
+                                    <h2 class="title">
+                                        My <span class="color">Resume</span>
+                                        <span class="bg-text">Resume</span>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Section Title -->
+
+                        <!-- Section Content -->
+                        <div class="row col-row">
+                            <div class="col-lg-6 col-item">
+                                <!-- Education -->
+                                <div class="resume-box card-p30 h-100">
+                                    <div class="resume-title">
+                                        <h4 class="title">Education</h4>
+                                    </div>
+
+                                    <div class="education-list">
+                                        <div class="education-item wow fadeInUp">
+                                            <div class="year"><span>2003-2012</span></div>
+                                            <h4 class="university-name">Studies University</h4>
+                                            <p class="degree">MCA in Computer Engineer </p>
+                                        </div>
+                                        <div class="education-item wow fadeInUp">
+                                            <div class="year"><span>2012-2015</span></div>
+                                            <h4 class="university-name">Tokyo University</h4>
+                                            <p class="degree">BCA in Computer Engineer </p>
+                                        </div>
+                                        <div class="education-item wow fadeInUp">
+                                            <div class="year"><span>2015-2017</span></div>
+                                            <h4 class="university-name">Ganpat University</h4>
+                                            <p class="degree">HSC in Computer Engineer </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Education -->
+                            </div>
+
+                            <div class="col-lg-6 col-item">
+                                <!-- Experience -->
+                                <div class="resume-box card-p30 h-100">
+                                    <div class="resume-title">
+                                        <h4 class="title">Experience</h4>
+                                    </div>
+
+                                    <div class="education-list">
+                                        <div class="education-item wow fadeInUp">
+                                            <div class="year"><span>2011-2014</span></div>
+                                            <h4 class="university-name">Discord Company</h4>
+                                            <p class="degree">Full Stack Web Developer</p>
+                                        </div>
+                                        <div class="education-item wow fadeInUp">
+                                            <div class="year"><span>2014-2018</span></div>
+                                            <h4 class="university-name">Google Company</h4>
+                                            <p class="degree">Web Developer</p>
+                                        </div>
+                                        <div class="education-item wow fadeInUp">
+                                            <div class="year"><span>2018-2021</span></div>
+                                            <h4 class="university-name">Adobe Company</h4>
+                                            <p class="degree">Web Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Experience -->
+                            </div>
+
+                            <div class="col-lg-6 col-item">
+                                <!-- Coding Skills -->
+                                <div class="resume-box card-p30 h-100">
+                                    <div class="resume-title">
+                                        <h4 class="title">Coding Skills</h4>
+                                    </div>
+
+                                    <div class="skill-list mt-30">
+                                        <div class="skill-item wow fadeInUp">
+                                            <div class="heading">
+                                                <h4 class="text name">HTML</h4>
+                                                <h5 class="text value">85%</h5>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item wow fadeInUp">
+                                            <div class="heading">
+                                                <h4 class="text name">JS</h4>
+                                                <h5 class="text value">95%</h5>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item wow fadeInUp">
+                                            <div class="heading">
+                                                <h4 class="text name">PHP</h4>
+                                                <h5 class="text value">65%</h5>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width:88%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item wow fadeInUp">
+                                            <div class="heading">
+                                                <h4 class="text name">JAVA</h4>
+                                                <h5 class="text value">75%</h5>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Coding Skills -->
+                            </div>
+
+                            <div class="col-lg-6 col-item">
+                                <!-- Language Skills -->
+                                <div class="resume-box card-p30 h-100">
+                                    <div class="resume-title">
+                                        <h4 class="title">Language Skills</h4>
+                                    </div>
+
+                                    <div class="skill-list mt-30">
+                                        <div class="skill-item wow fadeInUp">
+                                            <div class="heading">
+                                                <h4 class="text name">English</h4>
+                                                <h5 class="text value">95%</h5>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item wow fadeInUp">
+                                            <div class="heading">
+                                                <h4 class="text name">Hindi</h4>
+                                                <h5 class="text value">85%</h5>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item wow fadeInUp">
+                                            <div class="heading">
+                                                <h4 class="text name">Spanis</h4>
+                                                <h5 class="text value">75%</h5>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item wow fadeInUp">
+                                            <div class="heading">
+                                                <h4 class="text name">Arabic</h4>
+                                                <h5 class="text value">65%</h5>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:65%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Language Skills -->
+                            </div>
+
+                            <div class="col-lg-6 col-item">
+                                <!-- Professional Skills -->
+                                <div class="resume-box card-p30 h-100">
+                                    <div class="resume-title">
+                                        <h4 class="title">Professional Skills</h4>
+                                    </div>
+
+                                    <div class="row skill-list2">
+                                        <div class="col-6 skill-item2 wow fadeInUp">
+                                            <div class="circle-progress" data-percent="80"></div> 
+                                            <h4 class="name">Web Design</h4>
+                                        </div>
+
+                                        <div class="col-6 skill-item2 wow fadeInUp">
+                                            <div class="circle-progress" data-percent="90"></div> 
+                                            <h4 class="name">Web Devlopment</h4>
+                                        </div>
+
+                                        <div class="col-6 skill-item2 wow fadeInUp">
+                                            <div class="circle-progress" data-percent="70"></div> 
+                                            <h4 class="name">Graphic Design</h4>
+                                        </div>
+
+                                        <div class="col-6 skill-item2 wow fadeInUp">
+                                            <div class="circle-progress" data-percent="85"></div> 
+                                            <h4 class="name">Media Marketing</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Professional Skills -->
+                            </div>
+
+                            <div class="col-lg-6 col-item">
+                                <!-- Knowledge -->
+                                <div class="resume-box card-p30 h-100">
+                                    <div class="resume-title">
+                                        <h4 class="title">Knowledge</h4>
+                                    </div>
+
+                                    <div class="knowledge-list mt-30 wow fadeInUp">
+                                        <div class="knowledge-item">
+                                            <p>Provide for Design and Development</p>
+                                        </div>
+                                        <div class="knowledge-item">
+                                            <p>Willingness to learn Technologies</p>
+                                        </div>
+                                        <div class="knowledge-item">
+                                            <p>Problem solving and coordination skills</p>
+                                        </div>
+                                        <div class="knowledge-item">
+                                            <p>Mobile App and Business Development</p>
+                                        </div>
+                                        <div class="knowledge-item">
+                                            <p>Team Handling / Team Work</p>
+                                        </div>
+                                        <div class="knowledge-item">
+                                            <p>Flexible with Working Conditions</p>
+                                        </div>
+                                        <div class="knowledge-item">
+                                            <p>Excellent Listening and Quick Learner</p>
+                                        </div>
+                                        <div class="knowledge-item">
+                                            <p>I strive to apply my knowledge and skills</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Knowledge -->
+                            </div>
+                        </div>
+                        <!-- End Section Content -->
+
+                        <!-- Certificate -->
+                        <div class="certificate mt-30">
+                            <div class="row col-row justify-content-center">
+                                <!-- Certificate Item -->
+                                <div class="col-lg-4 col-md-6 col-item">
+                                    <div class="card card-p20 border-0 wow fadeInUp">
+                                        <div class="img animate-scale">
+                                            <img class="img-fluid w-100" src="assets/images/certificate/1.jpg" alt="certificate" />
+                                        </div>
+                                        <div class="card-body px-0 pb-0">
+                                            <h5 class="card-title">Intertnation Design</h5>
+                                            <p class="card-text">Best practice in design and coding to make the page load fast and SEO ready.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Certificate Item -->
+                                <!-- Certificate Item -->
+                                <div class="col-lg-4 col-md-6 col-item">
+                                    <div class="card card-p20 border-0 wow fadeInUp">
+                                        <div class="img animate-scale">
+                                            <img class="img-fluid w-100" src="assets/images/certificate/1.jpg" alt="certificate" />
+                                        </div>
+                                        <div class="card-body px-0 pb-0">
+                                            <h5 class="card-title">Certificate title</h5>
+                                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Certificate Item -->
+                                <!-- Certificate Item -->
+                                <div class="col-lg-4 col-md-6 col-item">
+                                    <div class="card card-p20 border-0 wow fadeInUp">
+                                        <div class="img animate-scale">
+                                            <img class="img-fluid w-100" src="assets/images/certificate/1.jpg" alt="certificate" />
+                                        </div>
+                                        <div class="card-body px-0 pb-0">
+                                            <h5 class="card-title">Passages Card</h5>
+                                            <p class="card-text">One of the things I have found myself needing over and over as design.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Certificate Item -->
+                            </div>
+                        </div>
+                        <!-- End Certificate -->
+                    </div>
+                    <!-- End Container -->
+                </div>
+                <!-- End Resume Section -->
+
+                <!-- My partner Section -->
+                <div class="partners-section service-section ss-top">
+                    <!-- Container -->
+                    <div class="container">
+                        <!-- Section Title -->
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12">
+                                <div class="section-heading wow fadeInUp" data-wow-delay="0.2s">
+                                    <h2 class="title">
+                                        My <span class="color">Clients</span>
+                                        <span class="bg-text">Clients</span>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Section Title -->
+
+                        <!-- Section Content -->
+                        <div class="row justify-content-center col-row wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-item">
+                                <a class="animate-scale card-p20" href="#"><img class="img-fluid" src="assets/images/partner/1.jpg" alt="clients" /></a>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-item">
+                                <a class="animate-scale card-p20" href="#"><img class="img-fluid" src="assets/images/partner/1.jpg" alt="clients" /></a>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-item">
+                                <a class="animate-scale card-p20" href="#"><img class="img-fluid" src="assets/images/partner/1.jpg" alt="clients" /></a>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-item">
+                                <a class="animate-scale card-p20" href="#"><img class="img-fluid" src="assets/images/partner/1.jpg" alt="clients" /></a>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-item">
+                                <a class="animate-scale card-p20" href="#"><img class="img-fluid" src="assets/images/partner/1.jpg" alt="clients" /></a>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-item">
+                                <a class="animate-scale card-p20" href="#"><img class="img-fluid" src="assets/images/partner/1.jpg" alt="clients" /></a>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-item">
+                                <a class="animate-scale card-p20" href="#"><img class="img-fluid" src="assets/images/partner/1.jpg" alt="clients" /></a>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-item">
+                                <a class="animate-scale card-p20" href="#"><img class="img-fluid" src="assets/images/partner/1.jpg" alt="clients" /></a>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-item">
+                                <a class="animate-scale card-p20" href="#"><img class="img-fluid" src="assets/images/partner/1.jpg" alt="clients" /></a>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-item">
+                                <a class="animate-scale card-p20" href="#"><img class="img-fluid" src="assets/images/partner/1.jpg" alt="clients" /></a>
+                            </div>
+                        </div>
+                        <!-- End Section Content -->
+                    </div>
+                    <!-- End Container -->
+                </div>
+                <!-- My partner Section -->
+
+                <!-- Portfolio Section -->
+                <div id="portfolio" class="portfolio-section portfolio-gallery ss-top">
+                    <!-- Container -->
+                    <div class="container">
+                        <!-- Section Title -->
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12">
+                                <div class="section-heading wow fadeInUp" data-wow-delay="0.2s">
+                                    <h2 class="title">
+                                        My <span class="color">Portfolio</span>
+                                        <span class="bg-text">Portfolio</span>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Section Title -->
+
+                        <!-- Section Content -->
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <!-- Portfolio Tabs -->
+                                <div class="d-flex justify-content-center">
+                                    <ul id="portfolio-flters" class="portfolio-flter-list mb-30 d-flex flex-wrap wow fadeInUp" data-wow-delay="0.3s">
+                                        <li class="filter active" data-filter="*">All Cetagories</li>
+                                        <li class="filter" data-filter=".design">Design</li>
+                                        <li class="filter" data-filter=".development">Development</li>
+                                        <li class="filter" data-filter=".management">Management</li>
+                                    </ul>
+                                </div>
+                                <!-- End Portfolio Tabs -->
+
+                                <!-- Portfolio gallery -->
+                                <div class="row portfolio-container col-row wow fadeInUp" data-wow-delay="0.3s">
+                                    <!-- Portfolio Item -->
+                                    <div class="col-sm-6 col-md-6 col-lg-4 portfolio-item col-item management">
+                                        <div class="portfolio-item-content">
+                                            <div class="item-thumbnail">
+                                                <!-- Portfolio Image -->
+                                                <img class="img-fluid" src="assets/images/portfolio/1.jpg" alt="portfolio" />
+                                                <!-- End Portfolio Image -->
+                                                <!-- Portfolio Overlay -->
+                                                <div class="content-overlay">
+                                                    <div class="links">
+                                                        <a class="link" href="portfolio-single.html"><i class="fas fa-link"></i></a>
+                                                        <a class="img-popup image-preview" href="assets/images/portfolio/1.jpg"><i class="fas fa-image"></i></a>
+                                                    </div>
+                                                </div>
+                                                <!-- End Portfolio Overlay -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Portfolio Item -->
+
+                                    <!-- Portfolio Item -->
+                                    <div class="col-sm-6 col-md-6 col-lg-4 portfolio-item col-item management">
+                                        <!-- Portfolio Content -->
+                                        <div class="portfolio-item-content">
+                                            <div class="item-thumbnail">
+                                                <!-- Portfolio Image -->
+                                                <img class="img-fluid" src="assets/images/portfolio/1.jpg" alt="portfolio" />
+                                                <!-- End Portfolio Image -->
+                                                <!-- Portfolio Overlay -->
+                                                <div class="content-overlay">
+                                                    <div class="links">
+                                                        <a class="link" href="portfolio-single.html"><i class="fas fa-link"></i></a>
+                                                        <a class="img-popup portfolio-popup image-preview" href="#portfolio-details-1"><i class="fas fa-eye"></i></a>
+                                                    </div>
+                                                </div>
+                                                <!-- End Portfolio Overlay -->
+                                            </div>
+                                        </div>
+                                        <!-- End Portfolio Content -->
+                                        <!-- Portfolio Details Popup -->
+                                        <div id="portfolio-details-1" class="container portfolio-detail-popup mfp-hide">
+                                            <h2 class="popup-detail-title">Project Title</h2>
+                                            <div class="row">
+                                                <!-- Portfolio Gallery -->
+                                                <div class="col-md-12 col-lg-6">
+                                                    <div class="main-image card-p20 mb-30">
+                                                        <!-- Portfolio Main Image -->
+                                                        <div class="gallery-main-img pb-2">
+                                                            <div class="slide-item"><img class="img-fluid" src="assets/images/portfolio/portfolio-slide1.jpg" alt="portfolio" /></div>
+                                                            <div class="slide-item"><img class="img-fluid" src="assets/images/portfolio/portfolio-slide1.jpg" alt="portfolio" /></div>
+                                                            <div class="slide-item"><img class="img-fluid" src="assets/images/portfolio/portfolio-slide1.jpg" alt="portfolio" /></div>
+                                                            <div class="slide-item"><img class="img-fluid" src="assets/images/portfolio/portfolio-slide1.jpg" alt="portfolio" /></div>
+                                                            <div class="slide-item"><img class="img-fluid" src="assets/images/portfolio/portfolio-slide1.jpg" alt="portfolio" /></div>
+                                                        </div>
+                                                        <!-- End Portfolio Main Image -->
+                                                        <!-- Portfolio Thumbnail Image -->
+                                                        <div class="gallery-thumbnail-img">
+                                                            <div class="slide-item"><img class="img-fluid" src="assets/images/portfolio/portfolio-slide1.jpg" alt="portfolio" /></div>
+                                                            <div class="slide-item"><img class="img-fluid" src="assets/images/portfolio/portfolio-slide1.jpg" alt="portfolio" /></div>
+                                                            <div class="slide-item"><img class="img-fluid" src="assets/images/portfolio/portfolio-slide1.jpg" alt="portfolio" /></div>
+                                                            <div class="slide-item"><img class="img-fluid" src="assets/images/portfolio/portfolio-slide1.jpg" alt="portfolio" /></div>
+                                                            <div class="slide-item"><img class="img-fluid" src="assets/images/portfolio/portfolio-slide1.jpg" alt="portfolio" /></div>
+                                                        </div>
+                                                        <!-- End Portfolio Thumbnail Image -->
+                                                    </div>
+                                                </div>
+                                                <!-- End Portfolio Gallery -->
+                                                <!-- Portfolio Content -->
+                                                <div class="col-md-12 col-lg-6">
+                                                    <div class="content card-p30 mb-30 info">
+                                                        <h4 class="title mb-3">Project Details:</h4>
+                                                        <ul class="d-flex flex-wrap flex-column portfolio-info">
+                                                            <li><h4>Service:</h4> <span>Web design</span></li>
+                                                            <li><h4>Client:</h4> <span>Lorem Ipsum</span></li>
+                                                            <li><h4>Technologies:</h4> <span>HTML5, PHP, jQuery</span></li>
+                                                            <li><h4>Start Date:</h4> <span>01 Aug, 2024</span></li>
+                                                            <li><h4>End Date:</h4> <span>31 Aug, 2024</span></li>
+                                                            <li><h4>Status:</h4> <span>Completed</span></li>
+                                                            <li><h4>Project URL:</h4> <span><a href="#">www.example.com</a></span></li>
+                                                        </ul>
+                                                        <ul class="d-flex flex-row align-items-center">
+                                                            <li class="block-title pb-0 pe-2"><h4>Share:</h4></li>
+                                                            <li class="pb-0 me-3"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                                            <li class="pb-0 me-3"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                                            <li class="pb-0 me-3"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                                            <li class="pb-0 me-3"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                                                            <li class="pb-0 me-0"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <!-- End Portfolio Content -->
+                                            </div>
+                                            <!-- Portfolio Content -->
+                                            <div class="row">
+                                                <div class="col-md-12 col-lg-12">
+                                                    <div class="content card-p30 mb-0">
+                                                        <h4 class="title mb-3">Project Info:</h4>
+                                                        <p>An portfolio is an online representation of work you have created, as well as your skills and experiences. It could be a website, blog, or even a video channel.  It could include your resume, a summary of qualifications and skills, images of class projects or design samples, audio and video, charts and schematics, process flows, and more.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Portfolio Content -->
+                                        </div>
+                                        <!-- End Portfolio Details Popup -->
+                                    </div>
+                                    <!-- End Portfolio Item -->
+
+                                    <!-- Portfolio Item -->
+                                    <div class="col-sm-6 col-md-6 col-lg-4 portfolio-item col-item development design">
+                                        <div class="portfolio-item-content">
+                                            <div class="item-thumbnail">
+                                                <!-- Portfolio Image -->
+                                                <img class="img-fluid" src="assets/images/portfolio/1.jpg" alt="portfolio" />
+                                                <!-- End Portfolio Image -->
+                                                <!-- Portfolio Overlay -->
+                                                <div class="content-overlay">
+                                                    <div class="links">
+                                                        <a class="link" href="portfolio-single.html"><i class="fas fa-link"></i></a>
+                                                        <a class="img-popup image-preview" href="assets/images/portfolio/1.jpg"><i class="fas fa-image"></i></a>
+                                                    </div>
+                                                </div>
+                                                <!-- End Portfolio Overlay -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Portfolio Item -->
+
+                                    <!-- Portfolio Item -->
+                                    <div class="col-sm-6 col-md-6 col-lg-4 portfolio-item col-item design management">
+                                        <div class="portfolio-item-content">
+                                            <div class="item-thumbnail">
+                                                <!-- Portfolio Image -->
+                                                <img class="img-fluid" src="assets/images/portfolio/1.jpg" alt="portfolio" />
+                                                <!-- End Portfolio Image -->
+                                                <!-- Portfolio Overlay -->
+                                                <div class="content-overlay">
+                                                    <div class="links">
+                                                        <a class="link" href="portfolio-single.html"><i class="fas fa-link"></i></a>
+                                                        <a class="youtube-popup" href="https://www.youtube.com/watch?v="><i class="fab fa-youtube"></i></a>
+                                                    </div>
+                                                </div>
+                                                <!-- End Portfolio Overlay -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Portfolio Item -->
+
+                                    <!-- Portfolio Item -->
+                                    <div class="col-sm-6 col-md-6 col-lg-4 portfolio-item col-item management">
+                                        <div class="portfolio-item-content">
+                                            <div class="item-thumbnail">
+                                                <!-- Portfolio Image -->
+                                                <img class="img-fluid" src="assets/images/portfolio/1.jpg" alt="portfolio" />
+                                                <!-- End Portfolio Image -->
+                                                <!-- Portfolio Overlay -->
+                                                <div class="content-overlay">
+                                                    <div class="links">
+                                                        <a class="link" href="portfolio-single.html"><i class="fas fa-link"></i></a>
+                                                        <a class="img-popup image-preview" href="assets/images/portfolio/1.jpg"><i class="fas fa-image"></i></a>
+                                                    </div>
+                                                </div>
+                                                <!-- End Portfolio Overlay -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Portfolio Item -->
+
+                                    <!-- Portfolio Item -->
+                                    <div class="col-sm-6 col-md-6 col-lg-4 portfolio-item col-item design development">
+                                        <div class="portfolio-item-content">
+                                            <div class="item-thumbnail">
+                                                <!-- Portfolio Image -->
+                                                <img class="img-fluid" src="assets/images/portfolio/1.jpg" alt="portfolio" />
+                                                <!-- End Portfolio Image -->
+                                                <!-- Portfolio Overlay -->
+                                                <div class="content-overlay">
+                                                    <div class="links">
+                                                        <a class="link" href="portfolio-single.html"><i class="fas fa-link"></i></a>
+                                                        <a class="vimeo-popup" href="https://vimeo.com/watch/"><i class="fab fa-vimeo-v"></i></a>
+                                                    </div>
+                                                </div>
+                                                <!-- End Portfolio Overlay -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Portfolio Item -->
+
+                                    <!-- Portfolio Item -->
+                                    <div class="col-sm-6 col-md-6 col-lg-4 portfolio-item col-item development">
+                                        <div class="portfolio-item-content">
+                                            <div class="item-thumbnail">
+                                                <!-- Portfolio Image -->
+                                                <img class="img-fluid" src="assets/images/portfolio/1.jpg" alt="portfolio" />
+                                                <!-- End Portfolio Image -->
+                                                <!-- Portfolio Overlay -->
+                                                <div class="content-overlay">
+                                                    <div class="links">
+                                                        <a class="link" href="portfolio-single.html"><i class="fas fa-link"></i></a>
+                                                        <a class="img-popup image-preview" href="assets/images/portfolio/1.jpg"><i class="fas fa-image"></i></a>
+                                                    </div>
+                                                </div>
+                                                <!-- End Portfolio Overlay -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Portfolio Item -->
+
+                                    <!-- Portfolio Item -->
+                                    <div class="col-sm-6 col-md-6 col-lg-4 portfolio-item col-item management development">
+                                        <!-- Portfolio Content -->
+                                        <div class="portfolio-item-content">
+                                            <div class="item-thumbnail">
+                                                <!-- Portfolio Image -->
+                                                <img class="img-fluid" src="assets/images/portfolio/1.jpg" alt="portfolio" />
+                                                <!-- End Portfolio Image -->
+                                                <!-- Portfolio Overlay -->
+                                                <div class="content-overlay">
+                                                    <div class="links">
+                                                        <a class="link" href="portfolio-single.html"><i class="fas fa-link"></i></a>
+                                                        <a class="img-popup portfolio-popup image-preview" href="#portfolio-details-2"><i class="fas fa-eye"></i></a>
+                                                    </div>
+                                                </div>
+                                                <!-- End Portfolio Overlay -->
+                                            </div>
+                                        </div>
+                                        <!-- End Portfolio Content -->
+                                        <!-- Portfolio Details Popup -->
+                                        <div id="portfolio-details-2" class="container portfolio-detail-popup mfp-hide">
+                                            <h2 class="popup-detail-title">Project Title</h2>
+                                            <div class="row">
+                                                <!-- Portfolio Gallery -->
+                                                <div class="col-md-12 col-lg-6">
+                                                    <div class="main-image card-p20 mb-30">
+                                                        <!-- Portfolio Main Image -->
+                                                        <div class="gallery-main-img pb-2">
+                                                            <div class="slide-item"><img class="img-fluid" src="assets/images/portfolio/portfolio-slide1.jpg" alt="portfolio" /></div>
+                                                            <div class="slide-item"><img class="img-fluid" src="assets/images/portfolio/portfolio-slide1.jpg" alt="portfolio" /></div>
+                                                            <div class="slide-item"><img class="img-fluid" src="assets/images/portfolio/portfolio-slide1.jpg" alt="portfolio" /></div>
+                                                            <div class="slide-item"><img class="img-fluid" src="assets/images/portfolio/portfolio-slide1.jpg" alt="portfolio" /></div>
+                                                            <div class="slide-item"><img class="img-fluid" src="assets/images/portfolio/portfolio-slide1.jpg" alt="portfolio" /></div>
+                                                        </div>
+                                                        <!-- End Portfolio Main Image -->
+                                                        <!-- Portfolio Thumbnail Image -->
+                                                        <div class="gallery-thumbnail-img">
+                                                            <div class="slide-item"><img class="img-fluid" src="assets/images/portfolio/portfolio-slide1.jpg" alt="portfolio" /></div>
+                                                            <div class="slide-item"><img class="img-fluid" src="assets/images/portfolio/portfolio-slide1.jpg" alt="portfolio" /></div>
+                                                            <div class="slide-item"><img class="img-fluid" src="assets/images/portfolio/portfolio-slide1.jpg" alt="portfolio" /></div>
+                                                            <div class="slide-item"><img class="img-fluid" src="assets/images/portfolio/portfolio-slide1.jpg" alt="portfolio" /></div>
+                                                            <div class="slide-item"><img class="img-fluid" src="assets/images/portfolio/portfolio-slide1.jpg" alt="portfolio" /></div>
+                                                        </div>
+                                                        <!-- End Portfolio Thumbnail Image -->
+                                                    </div>
+                                                </div>
+                                                <!-- End Portfolio Gallery -->
+                                                <!-- Portfolio Content -->
+                                                <div class="col-md-12 col-lg-6">
+                                                    <div class="content card-p30 mb-30 info">
+                                                        <h4 class="title mb-3">Project Details:</h4>
+                                                        <ul class="d-flex flex-wrap flex-column portfolio-info">
+                                                            <li><h4>Service:</h4> <span>Web design</span></li>
+                                                            <li><h4>Client:</h4> <span>Lorem Ipsum</span></li>
+                                                            <li><h4>Technologies:</h4> <span>HTML5, PHP, jQuery</span></li>
+                                                            <li><h4>Start Date:</h4> <span>04 Feb, 2024</span></li>
+                                                            <li><h4>End Date:</h4> <span>27 Feb, 2024</span></li>
+                                                            <li><h4>Status:</h4> <span>Completed</span></li>
+                                                            <li><h4>Project URL:</h4> <span><a href="#">www.example.com</a></span></li>
+                                                        </ul>
+                                                        <ul class="d-flex flex-row align-items-center">
+                                                            <li class="block-title pb-0 pe-2"><h4>Share:</h4></li>
+                                                            <li class="pb-0 me-3"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                                            <li class="pb-0 me-3"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                                            <li class="pb-0 me-3"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                                            <li class="pb-0 me-3"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                                                            <li class="pb-0 me-0"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <!-- End Portfolio Content -->
+                                            </div>
+                                            <!-- Portfolio Content -->
+                                            <div class="row">
+                                                <div class="col-md-12 col-lg-12">
+                                                    <div class="content card-p30 mb-0">
+                                                        <h4 class="title mb-3">Project Info:</h4>
+                                                        <p>It is becoming increasingly for artists, engineers, computer scientists, photographers, designers, filmmakers, and other creative people to have a way to showcase and promote their work. Regardless of the medium you work with, a portfolio will give more people access to your work and a better idea of your abilities.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Portfolio Content -->
+                                        </div>
+                                        <!-- End Portfolio Details Popup -->
+                                    </div>
+                                    <!-- End Portfolio Item -->
+
+                                    <!-- Portfolio Item -->
+                                    <div class="col-sm-6 col-md-6 col-lg-4 portfolio-item col-item management design">
+                                        <div class="portfolio-item-content">
+                                            <div class="item-thumbnail">
+                                                <!-- Portfolio Image -->
+                                                <img class="img-fluid" src="assets/images/portfolio/1.jpg" alt="portfolio" />
+                                                <!-- End Portfolio Image -->
+                                                <!-- Portfolio Overlay -->
+                                                <div class="content-overlay">
+                                                    <div class="links">
+                                                        <a class="link" href="portfolio-single.html"><i class="fas fa-link"></i></a>
+                                                        <a class="soundcloud-popup" href="https://soundcloud.com/search?q=all"><i class="fas fa-music"></i></a>
+                                                    </div>
+                                                </div>
+                                                <!-- End Portfolio Overlay -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Portfolio Item -->
+                                </div>
+                                <!-- End Portfolio gallery -->
+                            </div>
+                        </div>
+                        <!-- End Section Content -->
+
+                        <!-- View All Button -->
+                        <div class="row view-all">
+                            <div class="col-lg-12 text-center">
+                                <a href="portfolio.html" class="btn btn-secondary wow fadeInUp"><span>View All</span></a>
+                            </div>
+                        </div>
+                        <!-- End View All Button -->
+                    </div>
+                    <!-- End Container -->
+                </div>
+                <!-- End Portfolio Section -->
+
+                <!-- Testimonial Section -->
+                <div id="testimonial" class="testimonial-section ss-top">
+                    <!-- Container -->
+                    <div class="container">
+                        <!-- Section Title -->
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12">
+                                <div class="section-heading wow fadeInUp" data-wow-delay="0.2s">
+                                    <h2 class="title">
+                                        My <span class="color">Testimonial</span>
+                                        <span class="bg-text">Testimonial</span>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Section Title -->
+
+                        <!-- Section Content -->
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <!-- Testimonial Slider -->
+                                <div class="testimonial-slider wow fadeInUp" data-wow-delay="0.3s">
+                                    <!-- Testimonial Item -->
+                                    <div class="slider-item">
+                                        <div class="testimonial-review card-p30">
+                                            <div class="stars d-flex flex-wrap">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="content">
+                                                <p>I stumbled across one day when I was looking for a fresh new website. Then I came across Abroad, absolutely stunning</p>
+                                            </div>
+                                            <div class="reviewr">
+                                                <div class="img">
+                                                    <img class="img-fluid" src="assets/images/testimonial/1.jpg" alt="testimonial" />
+                                                </div>
+                                                <div class="content align-self-center">
+                                                    <h4 class="name">Isolate</h4>
+                                                    <p>CEO at ABC</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Testimonial Item -->
+
+                                    <!-- Testimonial Item -->
+                                    <div class="slider-item">
+                                        <div class="testimonial-review card-p30">
+                                            <div class="stars d-flex flex-wrap">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="content">
+                                                <p>Responsive design perfect for mobile and tablet browsing. It's definitely a big bang for a little buck readable content of a page</p>
+                                            </div>
+                                            <div class="reviewr">
+                                                <div class="img">
+                                                    <img class="img-fluid" src="assets/images/testimonial/1.jpg" alt="testimonial" />
+                                                </div>
+                                                <div class="content align-self-center">
+                                                    <h4 class="name">Anna Sthesia</h4>
+                                                    <p>CEO at DER</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Testimonial Item -->
+
+                                    <!-- Testimonial Item -->
+                                    <div class="slider-item">
+                                        <div class="testimonial-review card-p30">
+                                            <div class="stars d-flex flex-wrap">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="content">
+                                                <p>Bootstrap has reached wide-spread adoption among developers and many have expressed their desire for customization</p>
+                                            </div>
+                                            <div class="reviewr">
+                                                <div class="img">
+                                                    <img class="img-fluid" src="assets/images/testimonial/1.jpg" alt="testimonial" />
+                                                </div>
+                                                <div class="content align-self-center">
+                                                    <h4 class="name">Loren</h4>
+                                                    <p>CEO at ECS</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Testimonial Item -->
+
+                                    <!-- Testimonial Item -->
+                                    <div class="slider-item">
+                                        <div class="testimonial-review card-p30">
+                                            <div class="stars d-flex flex-wrap">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <div class="content">
+                                                <p>I design websites for every screen size available and make sure it looks great on every device type specimen book.</p>
+                                            </div>
+                                            <div class="reviewr">
+                                                <div class="img">
+                                                    <img class="img-fluid" src="assets/images/testimonial/1.jpg" alt="testimonial" />
+                                                </div>
+                                                <div class="content align-self-center">
+                                                    <h4 class="name">Buster Hyman</h4>
+                                                    <p>CEO at XYZ</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Testimonial Item -->
+                                </div>
+                                <!-- End Testimonial Slider -->
+                            </div>
+                        </div>
+                        <!-- End Section Content -->
+                    </div>
+                    <!-- End Container -->
+                </div>
+                <!-- End Testimonial Section -->
+
+                <!-- Pricing Section -->
+                <div id="pricing" class="pricing-section ss-top">
+                    <!-- Container -->
+                    <div class="container">
+                        <!-- Section Title -->
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12">
+                                <div class="section-heading wow fadeInUp" data-wow-delay="0.2s">
+                                    <h2 class="title">
+                                        Pricing <span class="color">Packages</span>
+                                        <span class="bg-text">Pricing</span>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Section Title -->
+
+                        <!-- Section Content -->
+                        <div class="row justify-content-center text-center col-row">
+                            <!-- Pricing Item -->
+                            <div class="col-lg-4 col-md-6 col-item">
+                                <div class="price-box card-p30 basic wow fadeInUp">
+                                    <!-- Pricing Title -->
+                                    <div class="price-title">
+                                        <h3 class="heading-title">Basic Plan</h3>
+                                        <p class="heading-sub-title">This is basic Service Plan</p>
+                                    </div>
+                                    <!-- End Pricing Title -->
+                                    <!-- Pricing Rate -->
+                                    <div class="price-rate">
+                                        <div class="center-align-content">
+                                            <h4 class="price">$250</h4>
+                                            <p class="duration">Months</p>
+                                            <i class="fas fa-dollar-sign"></i>
+                                        </div>
+                                    </div>
+                                    <!-- End Pricing Rate -->
+                                    <!-- Pricing Feature -->
+                                    <div class="service-feature">
+                                        <ul class="service-feature-list">
+                                            <li><del>Android Application</del></li>
+                                            <li><del>IOS Application</del></li>
+                                            <li>UX/UI Designs</li>
+                                            <li>Logo design</li>
+                                            <li>PSD to HTML</li>
+                                            <li><del>Digital Marketing</del></li>
+                                            <li>Content Editing</li>
+                                        </ul>
+                                    </div>
+                                    <!-- End Pricing Feature -->
+                                    <!-- Pricing Action -->
+                                    <div class="buy-btn-wrapper">
+                                        <a class="btn btn-primary" href="#"><span><i class="fas fa-shopping-cart me-2"></i>Start Now</span></a>
+                                    </div>
+                                    <!-- End Pricing Action -->
+                                </div>
+                            </div>
+                            <!-- End Pricing Item -->
+
+                            <!-- Pricing Item -->
+                            <div class="col-lg-4 col-md-6 col-item">                                    
+                                <div class="price-box card-p30 basic wow fadeInUp">
+                                    <!-- Pricing Title -->
+                                    <div class="price-title">
+                                        <h3 class="heading-title">Standard Plan</h3>
+                                        <p class="heading-sub-title">This is Standard Service Plan</p>
+                                    </div>
+                                    <!-- End Pricing Title -->
+                                    <!-- Pricing Rate -->
+                                    <div class="price-rate">
+                                        <div class="center-align-content">
+                                            <h4 class="price">$350</h4>
+                                            <p class="duration">Months</p>
+                                            <i class="fas fa-dollar-sign"></i>
+                                        </div>
+                                    </div>
+                                    <!-- End Pricing Rate -->
+                                    <!-- Pricing Feature -->
+                                    <div class="service-feature">
+                                        <ul class="service-feature-list">
+                                            <li><del>Android Application</del></li>
+                                            <li><del>IOS Application</del></li>
+                                            <li>UX/UI Designs</li>
+                                            <li>Logo design</li>
+                                            <li>PSD to HTML</li>
+                                            <li>Digital Marketing</li>
+                                            <li>Content Editing</li>
+                                        </ul>
+                                    </div>
+                                    <!-- End Pricing Feature -->
+                                    <!-- Pricing Action -->
+                                    <div class="buy-btn-wrapper">
+                                        <a class="btn btn-primary" href="#"><span><i class="fas fa-shopping-cart me-2"></i>Start Now</span></a>
+                                    </div>
+                                    <!-- End Pricing Action -->
+                                </div>                                    
+                            </div>
+                            <!-- End Pricing Item -->
+
+                            <!-- Pricing Item -->
+                            <div class="col-lg-4 col-md-6 col-item">
+                                <div class="price-box card-p30 basic wow fadeInUp">
+                                    <!-- Pricing Title -->
+                                    <div class="price-title">
+                                        <h3 class="heading-title">Premium Plan</h3>
+                                        <p class="heading-sub-title">This is Premium Service Plan</p>
+                                    </div>
+                                    <!-- End Pricing Title -->
+                                    <!-- Pricing Rate -->
+                                    <div class="price-rate">
+                                        <div class="center-align-content">
+                                            <h4 class="price">$450</h4>
+                                            <p class="duration">Months</p>
+                                            <i class="fas fa-dollar-sign"></i>
+                                        </div>
+                                    </div>
+                                    <!-- End Pricing Rate -->
+                                    <!-- Pricing Feature -->
+                                    <div class="service-feature">
+                                        <ul class="service-feature-list">
+                                            <li>Android Application</li>
+                                            <li>IOS Application</li>
+                                            <li>UX/UI Designs</li>
+                                            <li>Logo design</li>
+                                            <li>PSD to HTML</li>
+                                            <li>Digital Marketing</li>
+                                            <li>Content Editing</li>
+                                        </ul>
+                                    </div>
+                                    <!-- End Pricing Feature -->
+                                    <!-- Pricing Action -->
+                                    <div class="buy-btn-wrapper">
+                                        <a class="btn btn-primary" href="#"><span><i class="fas fa-shopping-cart me-2"></i>Start Now</span></a>
+                                    </div>
+                                    <!-- End Pricing Action -->
+                                </div>   
+                            </div>
+                            <!-- End Pricing Item -->
+                        </div>
+                        <!-- End Section Content -->
+                    </div>
+                    <!-- End Container -->
+                </div>
+                <!-- End Pricing Section -->
+
+                <!-- Blog Section -->
+                <div id="blog" class="blog-section ss-top">
+                    <!-- Container -->
+                    <div class="container">
+                        <!-- Section Title -->
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12">
+                                <div class="section-heading wow fadeInUp" data-wow-delay="0.2s">
+                                    <h2 class="title">
+                                        My <span class="color">Blogs</span>
+                                        <span class="bg-text">Blogs</span>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Section Title -->
+
+                        <!-- Section Content -->
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="blog-slider wow fadeInUp" data-wow-delay="0.3s">
+                                    <!-- Blog Item -->
+                                    <div class="slider-item">
+                                        <div class="blog-item card-p20">
+                                            <!-- Blog Image -->
+                                            <div class="img animate-scale">
+                                                <img class="img-fluid" src="assets/images/blog/1.jpg" alt="blog" />
+                                            </div>
+                                            <!-- End Blog Image -->
+
+                                            <!-- Blog Content -->
+                                            <div class="content">
+                                                <ul class="top-meta d-flex flex-wrap">
+                                                    <li class="post-by"><i class="fas fa-user me-2"></i>By, Admin</li>
+                                                    <li class="date"><i class="fas fa-calendar-alt me-2"></i>21 Jan, 2024</li>
+                                                    <li class="post-by"><i class="fas fa-comments me-2"></i>14</li>
+                                                </ul>
+                                                <h4 class="title"><a href="blog-single.html">How to Create Great Logo for Your Business</a></h4>
+                                            </div>
+                                            <!-- End Blog Content -->
+                                        </div>
+                                    </div>
+                                    <!-- End Blog Item -->
+
+                                    <!-- Blog Item -->
+                                    <div class="slider-item">
+                                        <div class="blog-item card-p20">
+                                            <!-- Blog Image -->
+                                            <div class="img animate-scale">
+                                                <img class="img-fluid" src="assets/images/blog/1.jpg" alt="blog" />
+                                            </div>
+                                            <!-- End Blog Image -->
+
+                                            <!-- Blog Content -->
+                                            <div class="content">
+                                                <ul class="top-meta d-flex flex-wrap">
+                                                    <li class="post-by"><i class="fas fa-user me-2"></i>By, Admin</li>
+                                                    <li class="date"><i class="fas fa-calendar-alt me-2"></i>24 Feb, 2024</li>
+                                                    <li class="post-by"><i class="fas fa-comments me-2"></i>32</li>
+                                                </ul>
+                                                <h4 class="title"><a href="blog-single.html">Success stories of a programmer Innovative</a></h4>
+                                            </div>
+                                            <!-- End Blog Content -->
+                                        </div>
+                                    </div>
+                                    <!-- End Blog Item -->
+
+                                    <!-- Blog Item -->
+                                    <div class="slider-item">
+                                        <div class="blog-item card-p20">
+                                            <!-- Blog Image -->
+                                            <div class="img animate-scale">
+                                                <img class="img-fluid" src="assets/images/blog/1.jpg" alt="blog" />
+                                            </div>
+                                            <!-- End Blog Image -->
+
+                                            <!-- Blog Content -->
+                                            <div class="content">
+                                                <ul class="top-meta d-flex flex-wrap">
+                                                    <li class="post-by"><i class="fas fa-user me-2"></i>By, Admin</li>
+                                                    <li class="date"><i class="fas fa-calendar-alt me-2"></i>18 Mar, 2024</li>
+                                                    <li class="post-by"><i class="fas fa-comments me-2"></i>10</li>
+                                                </ul>
+                                                <h4 class="title"><a href="blog-single.html">Design always come from power of reactions</a></h4>
+                                            </div>
+                                            <!-- End Blog Content -->
+                                        </div>
+                                    </div>
+                                    <!-- End Blog Item -->
+
+                                    <!-- Blog Item -->
+                                    <div class="slider-item">
+                                        <div class="blog-item card-p20">
+                                            <!-- Blog Image -->
+                                            <div class="img animate-scale">
+                                                <img class="img-fluid" src="assets/images/blog/1.jpg" alt="blog" />
+                                            </div>
+                                            <!-- End Blog Image -->
+
+                                            <!-- Blog Content -->
+                                            <div class="content">
+                                                <ul class="top-meta d-flex flex-wrap">
+                                                    <li class="post-by"><i class="fas fa-user me-2"></i>By, Admin</li>
+                                                    <li class="date"><i class="fas fa-calendar-alt me-2"></i>21 Mar, 2024</li>
+                                                    <li class="post-by"><i class="fas fa-comments me-2"></i>4</li>
+                                                </ul>
+                                                <h4 class="title"><a href="blog-single.html">Success stories of a programmer design career</a></h4>
+                                            </div>
+                                            <!-- End Blog Content -->
+                                        </div>
+                                    </div>
+                                    <!-- End Blog Item -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Section Content -->
+
+                        <!-- View All Button -->
+                        <div class="row view-all">
+                            <div class="col-lg-12 text-center">
+                                <a href="blog.html" class="btn btn-secondary wow fadeInUp"><span>View All</span></a>
+                            </div>
+                        </div>
+                        <!-- End View All Button -->
+                    </div>
+                    <!-- End Container -->
+                </div>
+                <!-- End Blog Section -->
+
+                <!-- Contact Section -->
+                <div id="contact" class="contact-section ss-top ss-bottom">
+                    <!-- Container -->
+                    <div class="container">
+                        <!-- Section Title -->
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12">
+                                <div class="section-heading wow fadeInUp" data-wow-delay="0.2s">
+                                    <h2 class="title">
+                                        Get In <span class="color">Touch</span>
+                                        <span class="bg-text">Contact</span>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Section Title -->
+
+                        <!-- Section Content -->
+                        <div class="row justify-content-center text-center col-row mb-30">
+                            <!-- Contact Info -->
+                            <div class="col-lg-4 col-md-6 col-item">
+                                <div class="info-item card-p30 wow fadeInUp">
+                                    <div class="info-icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="info-content">
+                                        <h5>My Location:</h5>
+                                        <p>23 Quincy Street, New York</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Contact Info -->
+                            <!-- Contact Info -->
+                            <div class="col-lg-4 col-md-6 col-item">
+                                <div class="info-item card-p30 wow fadeInUp">
+                                    <div class="info-icon">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                    <div class="info-content">
+                                        <h5>Phone Number:</h5>
+                                        <p><a href="tel:+011234567890" class="d-inline-block">(+01) 123 456 7890</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Contact Info -->
+                            <!-- Contact Info -->
+                            <div class="col-lg-4 col-md-6 col-item">
+                                <div class="info-item card-p30 wow fadeInUp">
+                                    <div class="info-icon">
+                                        <i class="far fa-envelope"></i>
+                                    </div>
+                                    <div class="info-contentr">
+                                        <h5>Email Address:</h5>
+                                        <p><a href="#" class="d-inline-block">info@example.com</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Contact Info -->
+                        </div>
+                        <!-- End Section Content -->
+
+                        <!-- Section Content -->
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <!-- Contact Form -->
+                                <div class="contact-form card-p30 wow fadeInUp">
+                                    <form id="contact-form" method="post" action="assets/php/mail.php" name="contactus">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" id="ContactFormName" name="name" class="form-control" placeholder="Name*" />
+                                                    <span class="error_msg" id="name_error"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="email" id="ContactFormEmail" name="email" class="form-control" placeholder="Email*" />
+                                                    <span class="error_msg" id="email_error"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input type="text" id="ContactSubject" name="subject" class="form-control" placeholder="Subject*" />
+                                                    <span class="error_msg" id="subject_error"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <textarea id="ContactFormMessage" name="message" class="form-control" rows="7" placeholder="Message*"></textarea>
+                                                    <span class="error_msg" id="message_error"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group mailsendbtn mb-0">	
+                                                    <input type="submit" class="btn btn-primary w-100" name="contactus" value="Send Message" />
+                                                    <div class="loading"><div class="d-flex align-items-center justify-content-center" style="height:35px;"><i class="fas fa-spinner fa-spin"></i></div></div>
+                                                </div>
+                                                <!--<button type="submit" class="btn btn-primary"><span>Send Message</span></button> -->
+                                            </div>
+                                        </div>
+                                    </form> 
+                                    <div class="response-msg"></div>
+                                </div>
+                                <!-- End Contact Form -->
+                            </div>
+
+                            <div class="col-lg-6">
+                                <!-- Google Map -->
+                                <div class="google-map-wrapper  card-p20 responsive-map wow fadeInUp">
+                                    <iframe src="https://www.google.com/maps/embed?pb=" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                </div>
+                                <!-- End Google Map -->
+                            </div>
+                        </div>
+                        <!-- Section Content -->
+                    </div>
+                    <!-- End Container -->
+                </div>
+                <!-- End Contact Section -->
             </div>
-          </article>
+            <!-- End Main Content -->
 
-          <article class="card project-card">
-            <img src="assets/project3.jpg" alt="Project 3 screenshot">
-            <div class="card-body">
-              <h3>Project Three</h3>
-              <p class="muted">A short description of project three.</p>
-              <p class="project-links">
-                <a class="btn small" href="#" target="_blank" rel="noopener">Live</a>
-                <a class="btn small outline" href="#" target="_blank" rel="noopener">Source</a>
-              </p>
-            </div>
-          </article>
+            <!-- Back to Top -->
+            <div id="scrollTop" class="bottomtotop"><i class="fas fa-chevron-right"></i></div>
+            <!-- End Back to Top -->
         </div>
-      </div>
-    </section>
+        <!-- End Page Wrapper -->
 
-    <section id="skills" class="section skills">
-      <div class="container">
-        <h2>Skills</h2>
-        <div class="skills-grid">
-          <div class="skill">
-            <label>HTML / CSS</label>
-            <div class="bar"><span style="width: 90%"></span></div>
-          </div>
-          <div class="skill">
-            <label>JavaScript</label>
-            <div class="bar"><span style="width: 85%"></span></div>
-          </div>
-          <div class="skill">
-            <label>React</label>
-            <div class="bar"><span style="width: 75%"></span></div>
-          </div>
-          <div class="skill">
-            <label>Node / Express</label>
-            <div class="bar"><span style="width: 70%"></span></div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section id="contact" class="section contact">
-      <div class="container">
-        <h2>Contact</h2>
-        <p class="muted">Get in touch — or use the form below.</p>
+        <!-- *********** JS Files *********** -->      
+        <!-- Plugin JS  -->
+        <script src="assets/js/plugins.js"></script>
+        <!-- Particles JS  -->
+        <script src="assets/js/particles.min.js"></script>
+        <script src="assets/js/particles-main.js"></script>
 
-        <form id="contact-form" class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
-          <div class="form-grid">
-            <label>
-              <span>Name</span>
-              <input type="text" name="name" required>
-            </label>
-            <label>
-              <span>Email</span>
-              <input type="email" name="email" required>
-            </label>
-            <label class="full">
-              <span>Message</span>
-              <textarea name="message" rows="6" required></textarea>
-            </label>
-          </div>
+        <!-- Template | Main JS -->
+        <script src="assets/js/main.js"></script>
 
-          <div class="form-actions">
-            <button type="submit" class="btn primary">Send message</button>
-            <button type="button" id="contact-email" class="btn outline">Email me</button>
-          </div>
-
-          <p id="form-status" class="form-status" aria-live="polite"></p>
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p>© <span id="year"></span> [Your Name]. Built with ❤️.</p>
-      <nav class="social">
-        <a href="#" aria-label="GitHub">GitHub</a>
-        <a href="#" aria-label="LinkedIn">LinkedIn</a>
-      </nav>
-    </div>
-  </footer>
-
-  <script src="script.js" defer></script>
-</body>
+    </body>
 </html>
+
